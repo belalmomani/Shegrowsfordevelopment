@@ -1,0 +1,17 @@
+# أسرار وإعدادات حقيقية - لا ترفعها أبدا
+backend/config/config.php
+.env
+*.env
+
+# بيانات تشغيلية
+storage/uploads/*
+storage/backups/*
+storage/logs/*
+!storage/**/.gitkeep
+
+# أخرى
+vendor/
+node_modules/
+*.zip
+*.sql.gz
+.DS_Store
